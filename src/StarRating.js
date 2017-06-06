@@ -1,8 +1,10 @@
-const React = require('react-native')
-const {
+import React, {PropTypes} from 'react'
+import {
   StyleSheet,
   View,
-} = React
+} from 'react-native'
+
+
 const times = require('lodash.times')
 const Star = require('./Star')
 
