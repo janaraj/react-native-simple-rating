@@ -1,8 +1,9 @@
-const React = require('react-native')
-const {
+import React, {PropTypes} from 'react'
+import {
   TouchableWithoutFeedback,
   Image,
-} = React
+} from 'react-native'
+
 const starIcon = require('./img/Star.png')
 const starFilledIcon = require('./img/StarFilled.png')
 
